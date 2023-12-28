@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -60,3 +61,21 @@ header .btn-contato button {
 header .btn-contato button:hover{
     box-shadow: 0px 0px 8px rgb(104, 104, 173);
 }
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topo-do-site h1{
+color: white;
+font-size: 34px;
+}
+.flex1{
+    display:flex;
+     
+   
+ }
