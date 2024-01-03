@@ -95,7 +95,7 @@ section .topo-do-sitec .flex {
 
 .topo-do-site h1 {
     color: white;
-    font-size: 42px;
+    font-size: 32px;
     font-family: 'Poppins';
     line-height: 40px;
 }
@@ -107,7 +107,7 @@ section .topo-do-sitec .flex {
 .topo-do-site .txt-topo-site p {
     color: white;
     margin: 40px 0;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .topo-do-site .img-topo-site img{
@@ -125,17 +125,15 @@ section .topo-do-sitec .flex {
     }
 }
 /* ESTILO DAS ESPECIALIDADES */
-section.especialidades{
-    padding: 40px 4%;
-    color: white;
-}
 
-.especialidades.especialidades-box{
+.especialidades .especialidades-box{
     color: white;
     padding: 40px;
+    border: 2px solid white;
 
 }
-.especialidades.especialidades-box .bi-0-circle-fill{
-    font-size: 70px;
-    color:rgb(104, 104, 173);
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
