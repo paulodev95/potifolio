@@ -129,8 +129,14 @@ section .topo-do-sitec .flex {
 .especialidades .especialidades-box{
     color: white;
     padding: 40px;
-    border: 2px solid white;
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
 
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px white;
 }
 
 .especialidades .especialidades-box h3{
