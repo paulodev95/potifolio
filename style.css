@@ -135,7 +135,7 @@ section.especialidades{
     padding: 40px;
 
 }
-.especialidades.especialidades-box i{
+.especialidades.especialidades-box .bi-0-circle-fill{
     font-size: 70px;
     color:rgb(104, 104, 173);
 }
