@@ -1,9 +1,10 @@
 /*ESTILO GERAL*/
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+
 }
 
 body {
@@ -34,6 +35,15 @@ body {
     transition: 0.2s;
 }
 
+h2.titulo{
+    color:  white;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+   color: rgb(104, 104, 173); 
+}
+
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -53,7 +63,7 @@ header a {
 }
 
 header a:hover {
-    color: black;
+    color: white;
     transform: scale(1.05);
 }
 
@@ -84,8 +94,9 @@ section .topo-do-sitec .flex {
 }
 
 .topo-do-site h1 {
-    color: black;
+    color: white;
     font-size: 42px;
+    font-family: 'Poppins';
     line-height: 40px;
 }
 
@@ -94,8 +105,9 @@ section .topo-do-sitec .flex {
 }
 
 .topo-do-site .txt-topo-site p {
-    color: black;
+    color: white;
     margin: 40px 0;
+    font-size: 22px;
 }
 
 .topo-do-site .img-topo-site img{
@@ -111,4 +123,19 @@ section .topo-do-sitec .flex {
     100%{
         top: 30px;
     }
+}
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+    color: white;
+}
+
+.especialidades.especialidades-box{
+    color: white;
+    padding: 40px;
+
+}
+.especialidades.especialidades-box i{
+    font-size: 70px;
+    color:rgb(104, 104, 173);
 }
