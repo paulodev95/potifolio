@@ -44,6 +44,11 @@ h2.titulo span {
     color: rgb(104, 104, 173);
 }
 
+ button:hover {
+    box-shadow: 0px 0px 8px rgb(104, 104, 173);
+    transform: scale(1.05);
+}
+
 /* ESTILO DO CABEÇALHO */
 
 header {
@@ -78,10 +83,7 @@ header nav ul li {
 }
 
 
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px rgb(104, 104, 173);
-    transform: scale(1.05);
-}
+
 
 /* ESTILO DO TOPO DO SITE */
 
@@ -149,4 +151,45 @@ section .topo-do-sitec .flex {
     margin: 15px 0;
 }
 
-/* ESTILO DAS ESPECIALIDADES */
+/* ESTILO DO SOBRE */
+
+section.sobre {
+    padding: 40px 4%;
+}
+
+section .sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: white;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: rgb(104, 104, 173);
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(104, 104, 173);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
