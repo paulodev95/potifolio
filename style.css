@@ -1,10 +1,9 @@
 /*ESTILO GERAL*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
-
 }
 
 body {
@@ -35,16 +34,18 @@ body {
     transition: 0.2s;
 }
 
-h2.titulo{
-    color:  white;
+h2.titulo {
+    color: white;
     font-size: 38px;
     text-align: center;
 }
-h2.titulo span{
-   color: rgb(104, 104, 173); 
+
+h2.titulo span {
+    color: rgb(104, 104, 173);
 }
 
 /* ESTILO DO CABEÇALHO */
+
 header {
     padding: 40px 4%;
 }
@@ -83,6 +84,7 @@ header nav ul li {
 }
 
 /* ESTILO DO TOPO DO SITE */
+
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -110,36 +112,41 @@ section .topo-do-sitec .flex {
     font-size: 16px;
 }
 
-.topo-do-site .img-topo-site img{
+.topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
+
 /* ESTILO DAS ESPECIALIDADES */
 
-.especialidades .especialidades-box{
+.especialidades .especialidades-box {
     color: white;
     padding: 40px;
     margin-top: 40px;
     border-radius: 20px;
     cursor: pointer;
-
+    transition: .7s;
 }
-.especialidades .especialidades-box:hover{
+
+.especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.638);
 }
 
-.especialidades .especialidades-box h3{
+.especialidades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
+
+/* ESTILO DAS ESPECIALIDADES */
