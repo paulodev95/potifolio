@@ -44,7 +44,7 @@ h2.titulo span {
     color: rgb(104, 104, 173);
 }
 
- button:hover {
+button:hover {
     box-shadow: 0px 0px 8px rgb(104, 104, 173);
     transform: scale(1.05);
 }
@@ -196,17 +196,19 @@ section .sobre .flex {
 
 /* ESTILO DO PORTIFÓLIO */
 
-section.portifolio{
+section.portifolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.315);
 }
-section.portifolio.flex{
+
+section.portifolio.flex {
     justify-content: space-around;
     margin-top: 60px;
 }
-.img-port{
+
+.img-port {
     width: 360px;
-    height: 460px; 
+    height: 460px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
@@ -214,21 +216,22 @@ section.portifolio.flex{
     border-radius: 40px;
     position: relative;
 }
-.img-port:hover{
-    background-position: 100% 100%;  
+
+.img-port:hover {
+    background-position: 100% 100%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:  rgba(104, 104, 173, 0.848);
+    background-color: rgba(104, 104, 173, 0.848);
     border-radius: 40px;
     display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     font-size: 24px;
     font-weight: 600;
     color: white;
@@ -237,6 +240,8 @@ section.portifolio.flex{
 
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
