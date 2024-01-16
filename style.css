@@ -202,6 +202,7 @@ section.portifolio{
 }
 section.portifolio.flex{
     justify-content: space-around;
+    margin-top: 60px;
 }
 .img-port{
     width: 360px;
