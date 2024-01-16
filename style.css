@@ -206,5 +206,10 @@ section.portifolio.flex{
 .img-port{
     width: 360px;
     height: 460px; 
-    background-color:rgb(104, 104, 173) ;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+}
+.img-port:hover{
+    background-position: 100% 100%;  
 }
