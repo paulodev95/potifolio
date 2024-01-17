@@ -287,3 +287,13 @@ form .btn-enviar input{
     cursor: pointer;
     transition: .2s;
 }
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.315);
+}
+footer .flex{
+    justify-content: space-between;
+}
