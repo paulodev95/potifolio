@@ -297,6 +297,14 @@ footer{
 footer .flex{
     justify-content: space-between;
 }
+footer .line-footer{
+    padding: 20px 0;
+    border-bottom:2px solid rgba(104, 104, 173, 0.848) ;
+}
 footer .line-footer p i{
     font-size: 22px;
+}
+footer .line-footer p a{
+    color: white;
+
 }
