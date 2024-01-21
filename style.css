@@ -182,7 +182,7 @@ section .sobre .flex {
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+ .btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -296,4 +296,7 @@ footer{
 }
 footer .flex{
     justify-content: space-between;
+}
+footer .line-footer p i{
+    font-size: 22px;
 }
