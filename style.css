@@ -299,12 +299,15 @@ footer .flex{
 }
 footer .line-footer{
     padding: 20px 0;
-    border-bottom:2px solid rgba(104, 104, 173, 0.848) ;
+    
+}
+.borda{
+    border-top: 2px solid rgba(104, 104, 173, 0.848);
 }
 footer .line-footer p i{
     font-size: 22px;
+    color:rgba(104, 104, 173, 0.848) ;
 }
 footer .line-footer p a{
     color: white;
-
 }
