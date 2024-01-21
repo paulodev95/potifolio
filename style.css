@@ -311,3 +311,10 @@ footer .line-footer p i{
 footer .line-footer p a{
     color: white;
 }
+@media screen and (max-width:1020px){
+    
+    /* CABEÇALHO */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+}
