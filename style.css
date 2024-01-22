@@ -44,7 +44,8 @@ h2.titulo span {
     color: rgb(104, 104, 173);
 }
 
-button:hover,form .btn-enviar input:hover {
+button:hover,
+form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px rgb(104, 104, 173);
     transform: scale(1.05);
 }
@@ -182,7 +183,7 @@ section .sobre .flex {
     text-align: justify;
 }
 
- .btn-social button {
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -245,10 +246,11 @@ section.portifolio.flex {
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
-section.formulario{
+section.formulario {
     padding: 80px 4%;
 }
-form{
+
+form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -259,7 +261,8 @@ form{
 
 }
 
-form input, form textarea{
+form input,
+form textarea {
     width: 100%;
     background-color: rgba(248, 247, 247, 0.203);
     border: 0;
@@ -267,21 +270,23 @@ form input, form textarea{
     padding: 20px 15px;
     border-radius: 15px;
     color: white;
-    font-size:18px;
+    font-size: 18px;
 }
 
-form textarea{
-  max-height: 200px;
-  resize: none;
-  
+form textarea {
+    max-height: 200px;
+    resize: none;
+
 }
-form .btn-enviar{
+
+form .btn-enviar {
     margin-top: 20px;
     text-align: center;
 }
-form .btn-enviar input{
+
+form .btn-enviar input {
     width: 120px;
-    background-color:rgba(104, 104, 173, 0.848) ;
+    background-color: rgba(104, 104, 173, 0.848);
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -290,31 +295,73 @@ form .btn-enviar input{
 
 /* ESTILO DO RODAPÉ */
 
-footer{
+footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.315);
 }
-footer .flex{
+
+footer .flex {
     justify-content: space-between;
 }
-footer .line-footer{
+
+footer .line-footer {
     padding: 20px 0;
-    
+
 }
-.borda{
+
+.borda {
     border-top: 2px solid rgba(104, 104, 173, 0.848);
 }
-footer .line-footer p i{
+
+footer .line-footer p i {
     font-size: 22px;
-    color:rgba(104, 104, 173, 0.848) ;
+    color: rgba(104, 104, 173, 0.848);
 }
-footer .line-footer p a{
+
+footer .line-footer p a {
     color: white;
 }
-@media screen and (max-width:1020px){
-    
+
+@media screen and (max-width:1020px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 32px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
     /* CABEÇALHO */
-    .menu-desktop, .btn-contato{
+    .menu-desktop,
+    .btn-contato {
         display: none;
+    }
+
+    /* TOPO DO SITE */
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* ESTILO DAS ESPECIALIDADES */
+
+    section.especialidades {
+        padding: 40px 8%;
     }
 }
