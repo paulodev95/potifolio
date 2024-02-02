@@ -98,7 +98,15 @@ header nav.menu-desktop ul li {
     z-index: 99999;
     width: 0%;
     overflow: hidden;
+    transition: .5s;
 
+}
+.menu-mobile.abrir-menu{
+    width: 70%;
+
+}
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
 }
 
 .menu-mobile .btn-fechar {
@@ -128,7 +136,7 @@ header nav.menu-desktop ul li {
 }
 
 .overlay-menu{
-    background-color: rgba(0, 0, 0, 0.629);
+    background-color: rgba(0, 0, 0, 0.716);
     width: 100%;
     height: 100%;
     position: fixed;
