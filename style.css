@@ -387,12 +387,12 @@ footer .line-footer p a {
     .img-port {
         width: 100%;
         max-width: 360PX;
-        height: 460px;
-        background-size: cover;
-        background-position: 100% 0%;
-        transition: 8s;
-        cursor: pointer;
-        border-radius: 40px;
-        position: relative;
+       margin: 0 auto;
+    }
+
+    /* RODAPÉ*/
+
+    footer .line-footer{
+        text-align: center;
     }
 }
