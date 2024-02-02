@@ -357,11 +357,16 @@ footer .line-footer p a {
     .topo-do-site .img-topo-site img {
         align-items: center;
         text-align: center;
+        justify-content: center;
+      
     }
 
     /* ESTILO DAS ESPECIALIDADES */
 
     section.especialidades {
         padding: 40px 8%;
+    }
+    section.sobre {
+        padding: 80px 8%;
     }
 }
