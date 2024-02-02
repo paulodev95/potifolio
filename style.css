@@ -385,7 +385,8 @@ footer .line-footer p a {
        
     }
     .img-port {
-        width: 360px;
+        width: 100%;
+        max-width: 360PX;
         height: 460px;
         background-size: cover;
         background-position: 100% 0%;
