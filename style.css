@@ -85,6 +85,10 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO MENU MOBILE*/
 
+.btn-abrir-menu svg{
+    color:rgb(104, 104, 173) ;
+}
+
 .menu-mobile {
     background-color: black;
     height: 100vh;
@@ -92,7 +96,9 @@ header nav.menu-desktop ul li {
     top: 0;
     right: 0;
     z-index: 99999;
-    width: 70%;
+    width: 0%;
+    overflow: hidden;
+
 }
 
 .menu-mobile .btn-fechar {
