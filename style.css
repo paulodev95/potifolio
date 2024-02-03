@@ -22,6 +22,11 @@ body {
     justify-content: center;
     gap: 90px;
 }
+.efeito-txt-topo .efeito-img-topo{
+    visibility: hidden;
+
+}
+
 
 .btn-contato button {
     padding: 10px 40px;
