@@ -24,3 +24,12 @@ duration: 2000,
 distance: '90px',
 
 })
+
+// ESPECIALIDADES
+
+revelar.reveal('.efeito-especialidades',
+{
+duration: 2000,
+distance: '90px',
+delay:500
+})

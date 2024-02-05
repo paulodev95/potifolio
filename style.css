@@ -21,8 +21,9 @@ body {
     align-items: center;
     justify-content: center;
     gap: 90px;
+    
 }
-.efeito-txt-topo , .efeito-img-topo , .titulo{
+.efeito-txt-topo , .efeito-img-topo , .titulo, .efeito-especialidades1,.efeito-especialidades2,.efeito-especialidades3{
     visibility: hidden;
 }
 
