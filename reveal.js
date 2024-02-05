@@ -56,7 +56,7 @@ revelar.reveal('.efeito-img-sobre',
 {
 duration: 2000,
 distance: '90px',
-delay:700,
+delay:400,
 origin:'left'
 })
 
@@ -64,6 +64,6 @@ revelar.reveal('.efeito-txt-sobre',
 {
 duration: 2000,
 distance: '90px',
-delay:1200,
+delay:800,
 origin: 'rigth'
 })
