@@ -11,7 +11,7 @@ Olá! Este projeto visa mostrar uma visão geral daquilo que faço!
 ## 💻 Como Testar o Projeto
 
 <<<<<<< HEAD
-1. Clone este repositório `https://paulodev95.github.io/potifolio/` ou acesse: https://github.com/paulodev95/potifolio
+1. Clone este repositório `https://github.com/paulodev95/potifolio` ou acesse:  https://paulodev95.github.io/potifolio/
 
 2. Abra a pasta que foi feito o download.
 
