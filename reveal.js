@@ -67,3 +67,15 @@ distance: '90px',
 delay:800,
 origin: 'rigth'
 })
+
+const url = 'https://wa.me/31998033216'
+const wpp = document.querySelector('#wpp')
+
+function openInNewTab(url) {
+    const win = window.open(url, '_blank')
+    win.focus()
+}
+
+wpp.addEventListener('click',() =>{
+    openInNewTab(url)
+})
